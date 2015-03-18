@@ -1,4 +1,5 @@
-﻿<div class="row">
+﻿@model DashboardApp.Models.DashboardReport
+<div class="row">
   <div class="col-lg-12">
     <h1 class="page-header">@ViewBag.Title - deployed via GitHub (by an online change)!</h1>
   </div>
@@ -12,7 +13,7 @@
             <i class="fa fa-comments fa-5x"></i>
           </div>
           <div class="col-xs-9 text-right">
-            <div class="huge">26</div>
+            <div class="huge">@Html.DisplayFor(model => model.NewComments)</div>
             <div>New Comments!</div>
           </div>
         </div>
@@ -34,7 +35,7 @@
             <i class="fa fa-tasks fa-5x"></i>
           </div>
           <div class="col-xs-9 text-right">
-            <div class="huge">12</div>
+            <div class="huge">@Html.DisplayFor(model => model.NewTasks)</div>
             <div>New Tasks!</div>
           </div>
         </div>
@@ -56,7 +57,7 @@
             <i class="fa fa-shopping-cart fa-5x"></i>
           </div>
           <div class="col-xs-9 text-right">
-            <div class="huge">124</div>
+            <div class="huge">@Html.DisplayFor(model => model.NewOrders)</div>
             <div>New Orders!</div>
           </div>
         </div>
@@ -78,7 +79,7 @@
             <i class="fa fa-support fa-5x"></i>
           </div>
           <div class="col-xs-9 text-right">
-            <div class="huge">13</div>
+            <div class="huge">@Html.DisplayFor(model => model.SupportTickets)</div>
             <div>Support Tickets!</div>
           </div>
         </div>
