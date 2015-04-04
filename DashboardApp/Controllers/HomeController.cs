@@ -1,6 +1,4 @@
-﻿using System.Linq;
-using System.Web.Mvc;
-using DashboardApp.Models;
+﻿using System.Web.Mvc;
 
 namespace DashboardApp.Controllers
 {
@@ -8,17 +6,8 @@ namespace DashboardApp.Controllers
   {
     public ActionResult Index()
     {
-      var db = new DashboardAppEntities();
-      var dashboardReport = new DashboardReport
-      {
-        NewComments = db.Comments.Count(),
-        NewTasks = db.Tasks.Count(),
-        NewOrders = db.Orders.Count(),
-        SupportTickets = db.SupportTickets.Count()
-      };
-
       ViewBag.Title = "Home";
-      return View(dashboardReport);
+      return View();
     }
   }
 }
