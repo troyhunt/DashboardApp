@@ -1,0 +1,17 @@
+SET IDENTITY_INSERT [dbo].[Item] ON
+INSERT INTO [dbo].[Item] ([Id], [Name], [Description]) VALUES (1, N'Nicole2', N'quartu quo')
+INSERT INTO [dbo].[Item] ([Id], [Name], [Description]) VALUES (2, N'Darnell', N'quoque quo,')
+INSERT INTO [dbo].[Item] ([Id], [Name], [Description]) VALUES (3, N'Holly672', N'gravis fecit,')
+INSERT INTO [dbo].[Item] ([Id], [Name], [Description]) VALUES (4, N'Sonya2', N'gravis fecit,')
+INSERT INTO [dbo].[Item] ([Id], [Name], [Description]) VALUES (5, N'Wendi17', N'trepicandor ut')
+INSERT INTO [dbo].[Item] ([Id], [Name], [Description]) VALUES (6, N'Warren10', N'gravum si estis')
+INSERT INTO [dbo].[Item] ([Id], [Name], [Description]) VALUES (7, N'Tonia117', N'et homo, plorum')
+INSERT INTO [dbo].[Item] ([Id], [Name], [Description]) VALUES (8, N'Joshua', N'quorum novum')
+INSERT INTO [dbo].[Item] ([Id], [Name], [Description]) VALUES (9, N'Cassandra5', N'imaginator')
+INSERT INTO [dbo].[Item] ([Id], [Name], [Description]) VALUES (10, N'Hilary65', N'non et')
+INSERT INTO [dbo].[Item] ([Id], [Name], [Description]) VALUES (11, N'Jarrod989', N'quantare plorum')
+INSERT INTO [dbo].[Item] ([Id], [Name], [Description]) VALUES (12, N'Alan52', N'volcans Sed Pro')
+INSERT INTO [dbo].[Item] ([Id], [Name], [Description]) VALUES (13, N'Mario05', N'linguens')
+INSERT INTO [dbo].[Item] ([Id], [Name], [Description]) VALUES (14, N'Joni4', N'quad estum.')
+INSERT INTO [dbo].[Item] ([Id], [Name], [Description]) VALUES (15, N'Luke3', N'et non')
+SET IDENTITY_INSERT [dbo].[Item] OFF
